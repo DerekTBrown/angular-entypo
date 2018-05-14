@@ -40,8 +40,7 @@ import { AngularEntypoModule, AngularEntypoComponent } from 'angular-entypo';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    AngularEntypoComponent // <-- ALSO HERE
+    AppComponent
   ],
   imports: [
     BrowserModule,
