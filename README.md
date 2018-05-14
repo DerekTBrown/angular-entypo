@@ -1,4 +1,5 @@
-# angular-entypo-cdnjs
+# angular-entypo
+[![Build Status](https://travis-ci.org/DerekTBrown/angular-entypo.svg?branch=master)](https://travis-ci.org/DerekTBrown/angular-entypo)
 
 ## Usage
 
@@ -67,7 +68,7 @@
   ```html
 
   <entypo name="phone"></entypo>
-  <entypo social name="github"></entypo>
+  <entypo name="github"></entypo>
 
   <!-- Also supports some font-awesome style transforms: !-->
   <entypo name="github" flip="vertical" scale="3"></entypo>
