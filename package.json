@@ -1,0 +1,39 @@
+{
+  "name": "angular-entypo",
+  "version": "1.0.0",
+  "description": "Angular Component for Entypo Fonts",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "",
+    "build": "tsc ./src/index.ts",
+    "prepublish": "rm -rf src node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DerekTBrown/angular-entypo.git"
+  },
+  "keywords": [
+    "entypo",
+    "font",
+    "icons",
+    "angular",
+    "angular-entypo",
+    "component",
+    "iconfont"
+  ],
+  "module": "./dist/angular-font-awesome.es5.js",
+  "author": "Derek Brown",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/DerekTBrown/angular-entypo/issues"
+  },
+  "homepage": "https://github.com/DerekTBrown/angular-entypo#readme",
+  "dependencies": {
+    "@angular/common": "^6.0.1",
+    "@angular/core": "^6.0.1",
+    "angular-font-awesome": "^3.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^2.8.3"
+  }
+}
