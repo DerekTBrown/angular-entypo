@@ -4,27 +4,27 @@
 
 1. Include the Entypo Font.
 
-  Option A: Use the font hosted by CDNJS:
+  Option A: Use the font hosted by jsdelivr:
 
     ```css
     @font-face {
         font-family: 'EntypoRegular';
-        src: url('https://cdnjs.cloudflare.com/ajax/libs/entypo/2.0/entypo.eot');
-        src: url('https://cdnjs.cloudflare.com/ajax/libs/entypo/2.0/entypo.eot?#iefix') format('embedded-opentype'),
-             url('https://cdnjs.cloudflare.com/ajax/libs/entypo/2.0/entypo.woff') format('woff'),
-             url('https://cdnjs.cloudflare.com/ajax/libs/entypo/2.0/entypo.ttf') format('truetype'),
-             url('https://cdnjs.cloudflare.com/ajax/libs/entypo/2.0/entypo.svg#EntypoRegular') format('svg');
+        src: url('https://cdn.jsdelivr.net/gh/derektbrown/angular-entypo@1.0.0/fonts/entypo.eot');
+        src: url('https://cdn.jsdelivr.net/gh/derektbrown/angular-entypo@1.0.0/fonts/entypo.eot?#iefix') format('embedded-opentype'),
+             url('https://cdn.jsdelivr.net/gh/derektbrown/angular-entypo@1.0.0/fonts/entypo.woff') format('woff'),
+             url('https://cdn.jsdelivr.net/gh/derektbrown/angular-entypo@1.0.0/fonts/entypo.ttf') format('truetype'),
+             url('https://cdn.jsdelivr.net/gh/derektbrown/angular-entypo@1.0.0/fonts/entypo.svg#EntypoRegular') format('svg');
         font-weight: normal;
         font-style: normal;
     }
 
     @font-face {
         font-family: 'EntypoSocialRegular';
-        src: url('https://cdnjs.cloudflare.com/ajax/libs/entypo/2.0/entypo-social.eot');
-        src: url('https://cdnjs.cloudflare.com/ajax/libs/entypo/2.0/entypo-social.eot?#iefix') format('embedded-opentype'),
-             url('https://cdnjs.cloudflare.com/ajax/libs/entypo/2.0/entypo-social.woff') format('woff'),
-             url('https://cdnjs.cloudflare.com/ajax/libs/entypo/2.0/entypo-social.ttf') format('truetype'),
-             url('https://cdnjs.cloudflare.com/ajax/libs/entypo/2.0/entypo-social.svg#EntypoRegular') format('svg');
+        src: url('https://cdn.jsdelivr.net/gh/derektbrown/angular-entypo@1.0.0/fonts/entypo-social.eot');
+        src: url('https://cdn.jsdelivr.net/gh/derektbrown/angular-entypo@1.0.0/fonts/entypo-social.eot?#iefix') format('embedded-opentype'),
+             url('https://cdn.jsdelivr.net/gh/derektbrown/angular-entypo@1.0.0/fonts/entypo-social.woff') format('woff'),
+             url('https://cdn.jsdelivr.net/gh/derektbrown/angular-entypo@1.0.0/fonts/entypo-social.ttf') format('truetype'),
+             url('https://cdn.jsdelivr.net/gh/derektbrown/angular-entypo@1.0.0/fonts/entypo-social.svg#EntypoRegular') format('svg');
         font-weight: normal;
         font-style: normal;
     }

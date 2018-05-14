@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+- '8'
+cache:
+  directories:
+    - "node_modules"
+install:
+  - npm install
+script:
+  - npm run build
+deploy:
+  provider: npm
+  email: derek@allderek.com
+  api_key:
+    secure: FzxMsvUZS0TqnmW41adyCXaUTeVSKjgFCCM1KrxDAEpJIjr3r83PEhopZJUOU9rq/VuALgIQygB+5Qr52V6gHxJZZ8KeYnXac9xXgnZNdxrC+HkvyzYopHnJVZUBhBMM97V8DmkLKqL1RcTS0nxcWjxxhLzQKdyw+1Qk/dyy1EwipA+qO+nyX1b9Ko9xghSP6Ucv65iNx8C5vX/wEA32HBhCH9xj2f5Ew3dLzcvKtTxO8doinIBHOG7IltVr6OevvQ16RmPjKk1uSOq0sxbCipVPRREn14bQmOT+zehDAs0qdveBt6tRB2X+ujNjU7RSwTUes5vB1xFQIV9zk8bIxl5AtePWYOHcy2VCO/KDlS7oJYuYbASzawVhCwf2peKpXdHcSKyC96MI+bX4PM4cBDjpDwlxZFnKDUgmdP9mTGGAUKOh8xF/53t9Wm3aVhIEtDOhlMSJB8wLUZSnBmSuporTiJLRqXvnqmfpD0MwHeei6PwgxKd7LWENmj7N1i8L0n0e0Z8UJ1nZB2Rj21roP8ndN9TWQI5m1zcq4Ig5He4ljwrPctAWxR8kw0bCULu6j7cuUYC7TaC9NEhg5wHLNjUJ/OkOT2yUkCJAw0ulUNKvKVrf6Dx15NdUicEI0x1OV0zR1kucspYmhEDuni9oiAyan1/9QZwVIkIfQB8Ld9w=
+  on:
+    tags: true
+    repo: DerekTBrown/angular-entypo
