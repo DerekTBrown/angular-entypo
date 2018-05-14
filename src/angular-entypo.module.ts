@@ -1,11 +1,10 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
 
 import { AngularEntypoComponent } from './angular-entypo.component';
 
 @NgModule({
-  imports: [CommonModule, BrowserModule],
+  imports: [CommonModule ],
   declarations: [AngularEntypoComponent],
   exports: [AngularEntypoComponent]
 })

@@ -4,7 +4,7 @@ import { Component, OnInit, Input } from '@angular/core';
   moduleId : module.id,
   selector: 'entypo',
   template: `
-  <i class="{{ !!social ? 'entypo' : 'entypo-social' }} {{name}}" [ngClass]="optionalClasses"></i>
+  <i class="{{ !social ? 'entypo' : 'entypo-social' }} {{name}}" [ngClass]="optionalClasses"></i>
   `,
   styles: [`
     .entypo {
@@ -348,7 +348,7 @@ export class AngularEntypoComponent implements OnInit {
   // Optional
   public _optionalClasses : string[] = [];
   @Input() flip : string;
-  @Input() scale : number;
+  @Input() scale : string;
 
   constructor() { }
 
@@ -366,8 +366,10 @@ export class AngularEntypoComponent implements OnInit {
     }
 
     if(this.scale){
-      if(Number.isInteger(this.scale) && 0 < this.scale && this.scale <= 5){
-        this._optionalClasses.push(this.scale+"x");
+      let scaleInt : number = <number>parseInt(this.scale);
+
+      if(Number.isInteger(scaleInt) && 0 < scaleInt && scaleInt <= 5){
+        this._optionalClasses.push(scaleInt+"x");
       } else {
         throw new Error('Invalid "scale" property for angular entypo component.');
       }
