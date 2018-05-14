@@ -28,11 +28,13 @@
   },
   "homepage": "https://github.com/DerekTBrown/angular-entypo#readme",
   "dependencies": {
-    "@angular/common": "^6.0.1",
-    "@angular/core": "^6.0.1",
+    "@angular/common": "^6.0.0",
+    "@angular/core": "^6.0.0",
+    "@angular/platform-browser": "^6.0.0",
     "rxjs": "^6.1.0"
   },
   "devDependencies": {
+    "@types/node": "^10.0.8",
     "typescript": "^2.8.3"
   }
 }

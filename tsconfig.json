@@ -3,9 +3,9 @@
     "./src/index.ts"
   ],
   "compilerOptions": {
-    "target": "es2015",
+    "target": "es5",
     "outDir": "./dist",
-    "baseUrl": "",
+    "module" : "commonjs",
     "moduleResolution": "node",
     "sourceMap": true,
     "inlineSources": true,
