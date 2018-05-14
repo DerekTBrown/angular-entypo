@@ -3,15 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-import { AngularEntypoModule } from 'angular-entypo';
+import { AngularEntypoComponent } from 'angular-entypo';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AngularEntypoComponent
   ],
   imports: [
-    BrowserModule,
-    AngularEntypoModule
+    BrowserModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
