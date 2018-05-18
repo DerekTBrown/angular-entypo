@@ -1,6 +1,6 @@
 {
   "name": "angular-entypo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Angular Component for Entypo Fonts",
   "scripts": {
     "build": "ng-packagr -p ng-package.json"
