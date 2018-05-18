@@ -4,7 +4,7 @@ import { Component, OnInit, Input } from '@angular/core';
   moduleId : module.id,
   selector: 'entypo',
   template: `
-  <i class="entypo {{name}}" [ngClass]="optionalClasses"></i>
+  <i class="entypo {{name}}" [ngClass]="_optionalClasses"></i>
   `,
   styleUrls: ['angular-entypo.component.css']
 })
